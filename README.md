@@ -1,6 +1,14 @@
-# sdm_r_packages
+物种分布模型相关的R程序包列表
+-------------------------------
 
-## 前 言
+|Author|张金龙|
+|---|---
+|E-mail|jinlongzhang01@gmail.com
+
+
+最新版本参见 https://github.com/helixcn/sdm_r_packages
+
+# 前言
 
 自从BIOMOD程序包在CRAN发布以来，众多的生态学家将注意力集中到R。
 
@@ -16,14 +24,14 @@
 
 5. R本身有较为完备的文档系统，近几年诞生的knitr, Rmarkdown等程序包， 让编写软件包指南变得非常容易。有了良好的文档系统， 用户也更容易学习和使用R程序包。
 
-6. R拥有庞大的用户群，通过R-sig邮件组, github以及stackoverflow等网站用户可以很快找到大部分问题的解决方案，其中当然也包括很多物种分布区模型预测相关的问题。
+6. R拥有庞大的用户群，通过R-sig邮件组, github以及stackoverflow等网站用户可以很快找到大部分问题的解决方案，其中当然也包括很多物种生态位模型预测相关的问题。
 
-物种生态位建模的程序包很多，大部分在CRAN集中保存。不过CRAN上的程序包已经超过12000个，虽然CRAN task view已经按照程序包所属的类别分别做了介绍， 但是目前仍然没有一个专门针对物种生态位模型的CRAN task view。这些程序包混在这12000多个程序包中，有时难以寻找。 为此，本人整理了CRAN或者github上与物种生态位模型分析相关的程序包列表，希望能反映近几年的最新进展，以方便相关工作人员查找和使用。
+物种生态位建模的程序包很多，大部分在CRAN集中保存。不过CRAN上的程序包已经超过12000个，虽然CRAN task view已经按照程序包所属的类别分别做了介绍， 但是目前仍然没有一个专门针对物种生态位模型的CRAN task view。这些程序包混在这12000多个程序包中，难以寻找。 为此，本人整理了CRAN或者github上与物种生态位模型分析相关的程序包列表，希望能反映近几年的最新进展，以方便相关工作人员查找和使用。
 
 由于掌握的信息有限，难免有很多错漏，望读者提出宝贵意见。
 
 
-## 物种分布模型相关的R程序包列表
+# R程序包列表
 
 * [`adehabitatHS`](https://cran.r-project.org/web/packages/adehabitatHS) :分析动物栖息地
 * [`adespatial`](https://cran.r-project.org/web/packages/adespatial): 多元、多尺度物种分布空间分析， 维护者是Stephane Dray, 该程序包中的forward.sel函数与packfor包功能相似
