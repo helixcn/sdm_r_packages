@@ -36,8 +36,8 @@
 * [`adehabitatHS`](https://cran.r-project.org/web/packages/adehabitatHS) :分析动物栖息地
 * [`adespatial`](https://cran.r-project.org/web/packages/adespatial): 多元、多尺度物种分布空间分析， 维护者是Stephane Dray, 该程序包中的forward.sel函数与packfor包功能相似
 * [`ALA4R`](https://cran.r-project.org/web/packages/ALA4R):查询澳大利亚The Atlas of Living Australia (ALA) 网站动植物分布记录
-* [`BIEN`](https://cran.r-project.org/web/packages/BIEN):查询NCEAS的BIEN数据库， 包括物种分布记录、性状、样方数据和系统分类位置等 http://Bien.nceas.ucsb.edu/bien/
-* [`biogeo`](https: //onlinelibrary.wiley.com/doi/abs/10.1111/ecog.02118):用于检查分布点数据的质量，以提高物种分布模型的准确性。
+* [`BIEN`](https://cran.r-project.org/web/packages/BIEN):查询NCEAS的BIEN数据库，包括物种分布记录、性状、样方数据和系统分类位置等 http://Bien.nceas.ucsb.edu/bien/
+* [`biogeo`](https://onlinelibrary.wiley.com/doi/abs/10.1111/ecog.02118):用于检查分布点数据的质量，以提高物种分布模型的准确性。
 * [`biomod2`](https://cran.r-project.org/web/packages/biomod2):用于多种物种生态位模型的整合建模， 这是Wilfried Thuiller研究组开发的程序包， 是biomod的继承与发展。
 * [`bossMaps`](https://cran.r-project.org/web/packages/bossMaps) :用于将基于专家意见的物种分布图(如野外手册中的分布图)转换为连续分布面数据。用于进一步校正物种分布图
 * [`cocorresp`](https://cran.r-project.org/web/packages/cocorresp):基于Co-CA方法，进行群落水平的物种相关性检验
@@ -121,7 +121,7 @@
 * [`usdm`](https://cran.r-project.org/web/packages/usdm): 物种分布模型中的不确定性分析
 * [`vegdata`](https://cran.r-project.org/web/packages/vegdata): 从 http://www.synbiosys.alterra.nl/turboveg/ 和 http://www.vegetweb.de 两大植被网站下载数据，并提供植物名称处理的相关函数。
 * [`velociraptr`](https://cran.r-project.org/web/packages/velociraptr): 古生物学数据下载、清洗、剔除和分析。
-* [`wallace`](https://cran.r-project.org/web/packages/wallace): 物种分布区模型预测，使用Shiny GUI，用户可自己开发分析组件。 具备完成的分析流程，另可下载相应代码 ( https`](https://wallaceecomod.github.io/ )。
+* [`wallace`](https://cran.r-project.org/web/packages/wallace): 物种分布区模型预测，使用Shiny GUI，用户可自己开发分析组件。 具备完成的分析流程，另可下载相应代码 (https://wallaceecomod.github.io/)。
 * [`zetadiv`](https://cran.r-project.org/web/packages/zetadiv): 计算zeta-diversity和物种组成变化
 * [`zoon`](https://cran.r-project.org/web/packages/zoon): 可重复性，可分享的物种分布区预测流程
 
