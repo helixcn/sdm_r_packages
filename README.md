@@ -49,7 +49,7 @@
 * [`ConR`](https://cran.r-project.org/web/packages/ConR): 估计物种分布区大小， 用于IUCN红色名录等级的分析
 * [`cooccur`](https://cran.r-project.org/web/packages/cooccur): 分析实地调查中物种共同出现的概率
 * [`CoordinateCleaner`](https://cran.r-project.org/web/packages/CoordinateCleaner): 分布数据的校验， 特别是国家与地区水平，地名与经纬度是否相符等。 https://github.com/azizka/CoordinateCleaner
-* [`demoniche`](https://cran.r-project.org/web/packages/demoniche): 种群分布的空间分析
+* [`demoniche`](http://demoniche.r-forge.r-project.org/): 种群分布的空间分析
 * [`dismo`](https://cran.r-project.org/web/packages/dismo): 物种生态位模型预测， 这是Robert Hijmans编写的程序包，功能繁多。作者的文档写得很清楚， 是入门的重要参考。
 * [`downscale`](https://cran.r-project.org/web/packages/downscale): 基于粗尺度的物种分布区获得精细尺度的物种分布区 downscales species occupancy at coarse grain sizes to predict species occupancy at fine grain sizes (更多内容参见 http://www.meteo.unican.es/climate4R )
 * [`ecolottery`](https://cran.r-project.org/web/packages/ecolottery): 用于模拟群落，可实现两种模拟，coalescent-based simulation, forward-in-time simulation
@@ -61,7 +61,7 @@
 * [`EnvNicheR`](https://cran.r-project.org/web/packages/EnvNicheR): 生态位宽度和重叠
 * [`FactorsR`](https://cran.r-project.org/web/packages/FactorsR): 分析影响物种丰富度的因子及各因子的贡献 
 * [`fitdistrplus`](https://cran.r-project.org/web/packages/fitdistrplus): 物种多样性格局的模型与拟合
-* [`fuzzySim`](https://cran.r-project.org/web/packages/fuzzySim): 物种分布区数据的模糊化处理以及分布区预测
+* [`fuzzySim`](http://fuzzysim.r-forge.r-project.org/): 物种分布区数据的模糊化处理以及分布区预测
 * [`hSDM`](https://cran.r-project.org/web/packages/hSDM): 分层贝叶斯物种分布模型，该框架可使用 物种出现的01数据以及多度数据，结合生境适应性、空间关联、人为干扰以及物种被发现的容易程度进行分布区模型预测。 参考 https://onlinelibrary.wiley.com/doi/full/10.1111/ecog.02445
 * [`indicspecies`](https://cran.r-project.org/web/packages/indicspecies): 基于物种多度和是否出现，计算生态位宽度等
 * [`iSDM`](https://cran.r-project.org/web/packages/iSDM): 入侵物种分布模型
