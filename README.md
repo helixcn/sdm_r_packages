@@ -18,9 +18,9 @@
 
 2. 近些年诞生的一些R程序包，让R十分方便地处理shape文件和raster文件等， 这就让物种生态位建模中加载环境图层，读写其他软件安生成的文件以及保存结果非常方便。
 
-3. 绘图R的优势之一，用户一般不需要特别复杂的编程，就可以生成精美的图形，而物种生态位模型研究中用图形展示结果非常重要。
+3. 绘图是R的优势之一，用户一般不需要特别复杂的编程，就可以生成精美的图形，而物种生态位模型研究中用图形展示结果非常重要。
 
-4. 计算性能方面，R程序可以与C或C++写的代码完美结合，客服了计算瓶颈。这就让物种生态位模型中常用的random forest, boosted regression trees, randomization test, cross validation, bootstrap等都能在可接受的时间内完成。
+4. 计算性能方面，R程序可以与C或C++写的代码完美结合，克服了计算瓶颈。这就让物种生态位模型中常用的random forest, boosted regression trees, randomization test, cross validation, bootstrap等都能在可接受的时间内完成。
 
 5. R本身有较为完备的文档系统，近几年诞生的knitr, Rmarkdown等程序包， 让编写软件包指南变得非常容易。有了良好的文档系统， 用户也更容易学习和使用R程序包。
 
