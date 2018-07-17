@@ -1,37 +1,13 @@
-物种分布模型相关的R程序包列表
+A curated list of R packages for species distribution modelling
 -------------------------------
 
-|Author|张金龙|
-|---|---
-|E-mail|jinlongzhang01@gmail.com
+# Introduction
 
+A number of R packages have been developed for species distribution modelling. Most of these packages are on CRAN, and are mixed with 12000 packages, making them difficult to find. Although CRAN Task Views are available for many disciplines, a list for the packages focusing on species distribution modelling is missing. Here, I have listed the packages that are related with species distribution modelling based on a thorough search on CRAN and github, and hope this list could reflect the recent advancement of this research field.
 
-最新版本参见 https://github.com/helixcn/sdm_r_packages
+Any contribution to this list is welcome. Feel free to fork to your own repository.
 
-# 前言
-
-自从BIOMOD程序包在CRAN发布以来，众多的生态学家将注意力集中到R。
-
-这是因为：
-
-1. 用R语言开发软件包相对容易，R中的数据对象类型容易学习和理解，数据读取等也非常容易。
-
-2. 近些年诞生的一些R程序包，让R十分方便地处理shape文件和raster文件等， 这就让物种生态位建模中加载环境图层，读写其他软件安生成的文件以及保存结果非常方便。
-
-3. 绘图是R的优势之一，用户一般不需要特别复杂的编程，就可以生成精美的图形，而物种生态位模型研究中用图形展示结果非常重要。
-
-4. 计算性能方面，R程序可以与C或C++写的代码完美结合，克服了计算瓶颈。这就让物种生态位模型中常用的random forest, boosted regression trees, randomization test, cross validation, bootstrap等都能在可接受的时间内完成。
-
-5. R本身有较为完备的文档系统，近几年诞生的knitr, Rmarkdown等程序包， 让编写软件包指南变得非常容易。有了良好的文档系统， 用户也更容易学习和使用R程序包。
-
-6. R拥有庞大的用户群，通过R-sig邮件组, github以及stackoverflow等网站用户可以很快找到大部分问题的解决方案，其中当然也包括很多物种生态位模型预测相关的问题。
-
-物种生态位建模的程序包很多，大部分在CRAN集中保存。不过CRAN上的程序包已经超过12000个，虽然CRAN task view已经按照程序包所属的类别分别做了介绍， 但是目前仍然没有一个专门针对物种生态位模型的CRAN task view。这些程序包混在这12000多个程序包中，难以寻找。 为此，本人整理了CRAN或者github上与物种生态位模型分析相关的程序包列表，希望能反映近几年的最新进展，以方便相关工作人员查找和使用。
-
-由于掌握的信息有限，难免有很多错漏，望读者提出宝贵意见。
-
-
-# R程序包列表
+# R Packages
 
 * [`adehabitatHS`](https://cran.r-project.org/web/packages/adehabitatHS) :分析动物栖息地
 * [`adespatial`](https://cran.r-project.org/web/packages/adespatial): 多元、多尺度物种分布空间分析， 维护者是Stephane Dray, 该程序包中的forward.sel函数与packfor包功能相似
