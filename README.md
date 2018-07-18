@@ -3,101 +3,193 @@ A curated list of R packages for species distribution modelling
 
 # Introduction
 
-A number of R packages have been developed for species distribution modelling. Most of these packages are on CRAN, and are mixed with 12000 packages, making them difficult to find. Although CRAN Task Views are available for many disciplines, a list for the packages focusing on species distribution modelling is missing. Here, I have listed the packages that are related with species distribution modelling based on a thorough search on CRAN and github, and hope this list could reflect the recent advancement of this research field.
+A number of R packages have been developed for species distribution modelling. Most of these packages are on CRAN, and are mixed with the rest 12000 packages, making them difficult to find. Although CRAN Task Views are available for many disciplines, a list for the packages focusing on species distribution modelling is missing. Here, I list the packages that are related with species distribution modelling based on a thorough search on CRAN and github, and hope this list could reflect the recent advancement of this active research field.
 
 Any contribution to this list is welcome. Feel free to fork to your own repository.
 
-# R Packages
+# List of R Packages
 
-* [`adehabitatHS`](https://cran.r-project.org/web/packages/adehabitatHS) :分析动物栖息地
-* [`adespatial`](https://cran.r-project.org/web/packages/adespatial): 多元、多尺度物种分布空间分析， 维护者是Stephane Dray, 该程序包中的forward.sel函数与packfor包功能相似
-* [`ALA4R`](https://cran.r-project.org/web/packages/ALA4R):查询澳大利亚The Atlas of Living Australia (ALA) 网站动植物分布记录
-* [`BIEN`](https://cran.r-project.org/web/packages/BIEN):查询NCEAS的BIEN数据库，包括物种分布记录、性状、样方数据和系统分类位置等 http://Bien.nceas.ucsb.edu/bien/
-* [`biogeo`](https://onlinelibrary.wiley.com/doi/abs/10.1111/ecog.02118):用于检查分布点数据的质量，以提高物种分布模型的准确性。
-* [`biomod2`](https://cran.r-project.org/web/packages/biomod2):用于多种物种生态位模型的整合建模， 这是Wilfried Thuiller研究组开发的程序包， 是biomod的继承与发展。
-* [`bossMaps`](https://cran.r-project.org/web/packages/bossMaps) :用于将基于专家意见的物种分布图(如野外手册中的分布图)转换为连续分布面数据。用于进一步校正物种分布图
-* [`cocorresp`](https://cran.r-project.org/web/packages/cocorresp):基于Co-CA方法，进行群落水平的物种相关性检验
-* [`coenocliner`](https://cran.r-project.org/web/packages/coenocliner):群落生态学程序包， 作者Gavin Simpson， 用于模拟环境梯度上物种出现与否及其多度。 
-* [`coenoflex`](https://cran.r-project.org/web/packages/coenoflex): 蒙大拿大学David W. Roberts 开发的程序包， 用于模拟植被
-* [`coexist`](https://cran.r-project.org/web/packages/coexist): 陈友华编写的物种共存分析的程序包
-* [`comclim`](https://cran.r-project.org/web/packages/comclim): 群落结构与气候分析
-* [`CommEcol`](https://cran.r-project.org/web/packages/CommEcol): 群落生态学数据分析
-* [`ConR`](https://cran.r-project.org/web/packages/ConR): 估计物种分布区大小， 用于IUCN红色名录等级的分析
-* [`cooccur`](https://cran.r-project.org/web/packages/cooccur): 分析实地调查中物种共同出现的概率
-* [`CoordinateCleaner`](https://cran.r-project.org/web/packages/CoordinateCleaner): 分布数据的校验， 特别是国家与地区水平，地名与经纬度是否相符等。 https://github.com/azizka/CoordinateCleaner
-* [`demoniche`](http://demoniche.r-forge.r-project.org/): 种群分布的空间分析
-* [`dismo`](https://cran.r-project.org/web/packages/dismo): 物种生态位模型预测， 这是Robert Hijmans编写的程序包，功能繁多。作者的文档写得很清楚， 是入门的重要参考。
-* [`downscale`](https://cran.r-project.org/web/packages/downscale): 基于粗尺度的物种分布区获得精细尺度的物种分布区 downscales species occupancy at coarse grain sizes to predict species occupancy at fine grain sizes (更多内容参见 http://www.meteo.unican.es/climate4R )
-* [`ecolottery`](https://cran.r-project.org/web/packages/ecolottery): 用于模拟群落，可实现两种模拟，coalescent-based simulation, forward-in-time simulation
-* [`EcoSimR`](https://cran.r-project.org/web/packages/EcoSimR): 群落生态学研究中的零模型， 主要用于检测物种共存，计算生态位宽度等， 统计生态学名家N. Gotelli等人开发的程序包。
-* [`ecospat`](https://cran.r-project.org/web/packages/ecospat): 物种分布模型领军人物Antoine Guisan研究组开发的程序包， 用于进行空间生态学分析，特别是针对物种分布， 生态位， 群落构建等分析，有完整的工作流程 (http://www.unil.ch/ecospat/home/menuguid/ecospat-resources/tools.html)
-* [`ENiRG`](https://cran.r-project.org/web/packages/ENiRG): 用R-GRASS进行物种分布区预测
-* [`ENMeval`](https://cran.r-project.org/web/packages/ENMeval): 用于评估物种生态位模型，第一作者 Robert Muscarella 在群落生态学和宏生态学也有很深的造诣。
-* [`ENMTools`](https://github.com/danlwarren/ENMTools/): Dan Warren 开发的R程序包， 分析物种生态位进化。
-* [`EnvNicheR`](https://cran.r-project.org/web/packages/EnvNicheR): 生态位宽度和重叠
-* [`FactorsR`](https://cran.r-project.org/web/packages/FactorsR): 分析影响物种丰富度的因子及各因子的贡献 
-* [`fitdistrplus`](https://cran.r-project.org/web/packages/fitdistrplus): 物种多样性格局的模型与拟合
-* [`fuzzySim`](http://fuzzysim.r-forge.r-project.org/): 物种分布区数据的模糊化处理以及分布区预测
-* [`hSDM`](https://cran.r-project.org/web/packages/hSDM): 分层贝叶斯物种分布模型，该框架可使用 物种出现的01数据以及多度数据，结合生境适应性、空间关联、人为干扰以及物种被发现的容易程度进行分布区模型预测。 参考 https://onlinelibrary.wiley.com/doi/full/10.1111/ecog.02445
-* [`indicspecies`](https://cran.r-project.org/web/packages/indicspecies): 基于物种多度和是否出现，计算生态位宽度等
-* [`iSDM`](https://cran.r-project.org/web/packages/iSDM): 入侵物种分布模型
-* [`jrich`](https://cran.r-project.org/web/packages/jrich): 进化独特性及其Jack-Knife支持率分析 Jack-Knife Support for Evolutionary Distinctiveness Indices Iand W (https`](https://link.springer.com/chapter/10.1007/978-3-319-22461-9_11)
-* [`kissmig`](https://cran.r-project.org/web/packages/kissmig): 物种迁移预测
-* [`KnowBR`](https://cran.r-project.org/web/packages/KnowBR): 基于物种分布数据评估某地点调查是否完整
-* [`letsR`](https://cran.r-project.org/web/packages/letsR): 宏生态学研究中地理数据、物种分布数据和环境数据的处理与分析 (https://github.com/macroecology/letsR)
-* [`mapr`](https://cran.r-project.org/web/packages/mapr): 利用spocc和rgbif等程序包获取的物种分布记录绘图，可生成基于leaflet的网页。
-* [`MaxentVariableSelection`](https://cran.r-project.org/web/packages/MaxentVariableSelection): 评估Maxent模型预测物种分布过程中，如何选取环境因子
-* [`maxlike`](https://cran.r-project.org/web/packages/maxlike): 利用极大似然方法估计物种分布区，直接生成分布概率。
-* [`maxnet`](https://cran.r-project.org/web/packages/maxnet): 用glmnet进行物种分布区预测 (https://github.com/mrmaxent/maxnet)
-* [`MetaLandSim`](https://cran.r-project.org/web/packages/MetaLandSim): 分析景观水平物种分布区的变化以及全球变化带来的等影响等
-* [`MIAmaxent`](https://cran.r-project.org/web/packages/MIAmaxent): 用于训练和筛选Maxent模型
-* [`mobsim`](https://cran.r-project.org/web/packages/mobsim): 群落物种分布和多度的空间模拟
-* [`modEvA`](https://cran.r-project.org/web/packages/modEvA): 用于物种分布区模型的评估 (http://modeva.r-forge.r-project.org/)
-* [`mopa`](https://cran.r-project.org/web/packages/mopa): 基于物种生态位模型预测物种是否出现 (https://github.com/SantanderMetGroup/mopa/wiki) 用Pseudo-Absences方法进行物种分布区建模， 可基于Warren et al. (2008) 的方法计算物种生态位重叠
-* [`netassoc`](https://cran.r-project.org/web/packages/netassoc): 种间关联计算
-* [`nicheROVER`](https://cran.r-project.org/web/packages/nicheROVER): 生态位宽度与重叠
-* [`nodiv`](https://cran.r-project.org/web/packages/nodiv): 计算整合进化树和物种分布模型的两个指数 the speciﬁc overrepresentation score (SOS) and the geographic node diverg ence (GND) score (https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.12283)
-* [`paleobioDB`](https://cran.r-project.org/web/packages/paleobioDB): 查询PaleobioDB的记录，并进行简单可视化
-* [`pez`](https://cran.r-project.org/web/packages/pez): Pearse, Cadotte, Cavender-Bares, Ives, C. Tucker, Mat Helmus 等人编写的程序包， 用于群落系统发育分析，提供若干修正的指数以及 pglmm等。
-* [`phyloclim`](https://cran.r-project.org/web/packages/phyloclim): 整合气候生态位进化以及系统发育， 可计算生态位重叠等，重建祖先分类单元的气候， 分析分布区大小和分化时间的关系，用随机化方法检验两个种生态位是否相等。
-* [`PresenceAbsence`](https://cran.r-project.org/web/packages/PresenceAbsence): 用于评估Presence-Absence模型的准确性，可计算confusion matrices, pcc, sensitivity, specificity, Kappa等指数并绘图等。
-* [`RADanalysis`](https://cran.r-project.org/web/packages/RADanalysis): 多度分布曲线分析
-* [`rangeBuilder`](https://cran.r-project.org/web/packages/rangeBuilder): 物种分布数据的整理和标准化。Occurrence Filtering, Geographic and Taxonomic Standardization and Generation of Species Range Polygons
-* [`rangeMapper`](https://cran.r-project.org/web/packages/rangeMapper): 生活史性状的宏生态学分析平台，个体大小与地理分布的关系等
-* [`raptr`](https://cran.r-project.org/web/packages/raptr): 确定优先保护区域， 本程序包基于商业软件Gurobi http://www.gurobi.com 
-* [`rbison`](https://cran.r-project.org/web/packages/rbison): 查询USGS 'BISON数据库的R程序包，主要是北美物种分布数据 (https://bison.usgs.gov/#home)。
-* [`rCAT`](https://cran.r-project.org/web/packages/rCAT): 物种保护等级的评估，用于编写红色名录，包括计算物种分布区大小，分布区范围等。 由Kew Gardens编写。
-* [`rebird`](https://cran.r-project.org/web/packages/rebird): 鸟类分布记录eBird数据库的R程序包接口，可用多种方式查询数据库
-* [`red`](https://cran.r-project.org/web/packages/red): 计算IUCN红色名录评估过程中的一些指数，如分布区大小，分布的国家，海拔范围， 生成kml文件等。该程序包是进行物种濒危等级评估人员的重要工具。
-* [`redlistr`](https://cran.r-project.org/web/packages/redlistr): 用于IUCN红色名录评估过程中物种分布区变化，并推测未来分布区大小等
-* [`rfishbase`](https://cran.r-project.org/web/packages/rfishbase): 查询http://www.fishbase.org 数据库中30000种鱼类的生物学、生态学、 形态学数据等
-* [`rgbif`](https://cran.r-project.org/web/packages/rgbif): GBIF的R接口程序包， 可查询物种名，记录数量，数据的meta信息以及绘图等。 https://ropenscilabs.github.io/occurrence-manual/
-* [`rinat`](https://cran.r-project.org/web/packages/rinat): 访问iNaturalist网站获取物种分布数据
-* [`RInSp`](https://cran.r-project.org/web/packages/RInSp): 评估个体的生态位特化， 计算个体以及种群的生态位宽度 Arujo's E, IS, Petraitis's W, Roughgarden's WIC/TNW
-* [`rioja`](https://cran.r-project.org/web/packages/rioja): 第四纪数据分析 including constrained clustering, WA, WAPLS, IKFA, MLRC and MAT transfer functions, and stratigraphic diagrams.
-* [`rredlist`](https://cran.r-project.org/web/packages/rredlist): 查询 IUCN 红色名录数据库 http://apiv3.iucnredlist.org/api/v3/docs
-* [`rvertnet`](https://cran.r-project.org/web/packages/rvertnet): 获取http://vertnet.org/数据库中脊椎动物数据， 可以按照物种和地点查询
-* [`sads`](https://cran.r-project.org/web/packages/sads): 物种多度分布的极大似然模型
-* [`sdm`](https://cran.r-project.org/web/packages/sdm): 生态学家Miguel Araujo研究组的程序包。该程序包的特点是: 面向对象，分析可重复，可编写扩展组件。
-* [`SDMPlay`](https://cran.r-project.org/web/packages/SDMPlay): 主要用于生态位模型的展示与教学，包含两种模型BRT (Boosted Regression Trees) and MaxEnt (Maximum Entropy) ，同时提供AUC曲线等， 可评估模型的准确性。 
-* [`sdmpredictors`](https://cran.r-project.org/web/packages/sdmpredictors): 下载物种分布模型的数据， 包括古气候和预测的未来气候数据
-* [`SDMTools`](https://cran.r-project.org/web/packages/SDMTools): 澳大利亚人开发的程序包，用于物种分布区模型的评估、可视化与比较分析等
-* [`sdmvspecies`](https://cran.r-project.org/web/packages/sdmvspecies): 为物种分布区模型生成虚拟物种 
-* [`SiMRiv`](https://cran.r-project.org/web/packages/SiMRiv): 模拟(动物)个体的运动
-* [`spacodiR`](https://cran.r-project.org/web/packages/spacodiR): 群落多样性的空间及系统发育分析 
-* [`SPECIES`](https://cran.r-project.org/web/packages/SPECIES): 物种丰富度模型的拟合
-* [`SPEDInstabR`](https://cran.r-project.org/web/packages/SPEDInstabR): 分析ModestR软件给出的物种潜在分布区，确定影响物种分布的主要因素等
-* [`sperich`](https://cran.r-project.org/web/packages/sperich): 估计物种分布区范围，并计算生物多样性热点地区等
-* [`spocc`](https://cran.r-project.org/web/packages/spocc): 可查询各大物种分布记录的数据库， 包括 Global Biodiversity Information Facility ('GBIF'), 'USGSs' Biodiversity Information Serving Our Nation ('BISON'), 'iNaturalist', Berkeley 'Ecoinformatics' Engine, 'eBird', 'AntWeb', Integrated Digitized 'Biocollections' ('iDigBio'), 'VertNet', Ocean 'Biogeographic' Information System ('OBIS'), and Atlas of Living Australia ('ALA'). 
-* [`spThin`](https://cran.r-project.org/web/packages/spThin): 基于空间分布，筛选物种分布记录 (Robert P. Anderson 组)
-* [`SSDM`](https://cran.r-project.org/web/packages/SSDM): Stacked Species Distribution Modelling， 基于Shiny界面的物种生态位模型预测。 该程序包能一次预测多个物种，并且有良好的界面支持。
-* [`subniche`](https://cran.r-project.org/web/packages/subniche): 群落中生态位变化的补偿指数 Complementary indexes calculation to the Outlying Mean Index analysis to explore niche shift of a community and biological constraint within an Euclidean space, with graphical displays.
-* [`Traitspace`](https://cran.r-project.org/web/packages/Traitspace): Laughlin研究组开发的程序包，可基于分层贝叶斯模型，用性状数据等估计物种在群落中出现的多度。
-* [`untb`](https://cran.r-project.org/web/packages/untb): 模拟中性理论中的Ecological Drift
-* [`usdm`](https://cran.r-project.org/web/packages/usdm): 物种分布模型中的不确定性分析
-* [`vegdata`](https://cran.r-project.org/web/packages/vegdata): 从 http://www.synbiosys.alterra.nl/turboveg/ 和 http://www.vegetweb.de 两大植被网站下载数据，并提供植物名称处理的相关函数。
-* [`velociraptr`](https://cran.r-project.org/web/packages/velociraptr): 古生物学数据下载、清洗、剔除和分析。
-* [`wallace`](https://cran.r-project.org/web/packages/wallace): 物种分布区模型预测，使用Shiny GUI，用户可自己开发分析组件。 具备完成的分析流程，另可下载相应代码 (https://wallaceecomod.github.io/)。
-* [`zetadiv`](https://cran.r-project.org/web/packages/zetadiv): 计算zeta-diversity和物种组成变化
-* [`zoon`](https://cran.r-project.org/web/packages/zoon): 可重复性，可分享的物种分布区预测流程
+* [`adehabitatHS`](https://cran.r-project.org/web/packages/adehabitatHS) :Analysis of Habitat Selection by Animals
 
+* [`adespatial`](https://cran.r-project.org/web/packages/adespatial): Tools for the multiscale spatial analysis of multivariate data. Several methods are based on the use of a spatial weighting matrix and its eigenvector decomposition (Moran's Eigenvectors Maps, MEM).
+
+* [`ALA4R`](https://cran.r-project.org/web/packages/ALA4R):Atlas of Living Australia (ALA) Data and Resources in R. The Atlas of Living Australia (ALA) provides tools to enable users of biodiversity information to find, access, combine and visualise data on Australian plants and animals; these have been made available from <http://ala.org.au/>. ALA4R provides a subset of the tools to be directly used within R. It enables the R community to directly access data and resources hosted by the ALA.
+
+* [`BIEN`](https://cran.r-project.org/web/packages/BIEN):Tools for Accessing the Botanical Information and Ecology Network Database. Provides Tools for Accessing the Botanical Information and Ecology Network Database. The BIEN database contains cleaned and standardized botanical data including occurrence, trait, plot and taxonomic data (See <http://Bien.nceas.ucsb.edu/bien/> for more Information). This package provides functions that query the BIEN database by constructing and executing optimized SQL queries.
+
+* [`biogeo`](https://onlinelibrary.wiley.com/doi/abs/10.1111/ecog.02118):an R package for assessing and improving data quality of occurrence record datasets
+
+* [`biomod2`](https://cran.r-project.org/web/packages/biomod2):Functions for species distribution modeling, calibration and evaluation, ensemble of models.
+
+* [`bossMaps`](https://cran.r-project.org/web/packages/bossMaps) : Convert Binary Species Range Maps into Continuous Surfaces Based on Distance to Range Edge
+
+* [`cocorresp`](https://cran.r-project.org/web/packages/cocorresp):Fits predictive and symmetric co-correspondence analysis (CoCA) models to relate one data matrix to another data matrix. More specifically, CoCA maximises the weighted covariance between the weighted averaged species scores of one community and the weighted averaged species scores of another community. CoCA attempts to find patterns that are common to both communities.
+
+* [`coenocliner`](https://cran.r-project.org/web/packages/coenocliner):Simulate species occurrence and abundances (counts) along gradients.
+
+* [`coenoflex`](https://cran.r-project.org/web/packages/coenoflex): Simulates the composition of samples of vegetation according to gradient-based vegetation theory. Features a flexible algorithm incorporating competition and complex multi-gradient interaction.
+
+* [`coexist`](https://cran.r-project.org/web/packages/coexist): species coexistence modeling under asymmetric dispersal and fluctuating source-sink dynamics;testing the proportion of coexistence scenarios driven by neutral and niche processes
+
+* [`comclim`](https://cran.r-project.org/web/packages/comclim): Computes community climate statistics for volume and mismatch using species' climate niches either unscaled or scaled relative to a regional species pool. These statistics can be used to describe biogeographic patterns and infer community assembly processes. Includes a vignette outlining usage.
+
+* [`CommEcol`](https://cran.r-project.org/web/packages/CommEcol): Autosimilarity curves, standardization of spatial extent, dissimilarity indexes that overweight rare species, phylogenetic and functional (pairwise and multisample) dissimilarity indexes and nestedness for phylogenetic, functional and other diversity metrics. This should be a complement to available packages, particularly 'vegan'.
+
+* [`ConR`](https://cran.r-project.org/web/packages/ConR): Computation of Parameters Used in Preliminary Assessment of Conservation Status. Multi-species estimation of geographical range parameters for preliminary assessment of conservation status following Criterion B of the International Union for Conservation of Nature (IUCN, see <http://www.iucnredlist.org>).
+
+* [`cooccur`](https://cran.r-project.org/web/packages/cooccur): Probabilistic Species Co-Occurrence Analysis in R. This R package applies the probabilistic model of species co-occurrence (Veech 2013) to a set of species distributed among a set of survey or sampling sites. The algorithm calculates the observed and expected frequencies of co-occurrence between each pair of species. The expected frequency is based on the distribution of each species being random and independent of the other species. The analysis returns the probabilities that a more extreme (either low or high) value of co-occurrence could have been obtained by chance. The package also includes functions for visualizing species co-occurrence results and preparing data for downstream analyses.
+
+* [`CoordinateCleaner`](https://cran.r-project.org/web/packages/CoordinateCleaner): Automated Cleaning of Occurrence Records from Biological Collections. Automated cleaning of geographic species occurrence records by automated flagging of problems common to biodiversity data from biological collections. Includes automated tests to easily flag (and exclude) records assigned to country or province centroid, the open ocean, the headquarters of the Global Biodiversity Information Facility, urban areas or the location of biodiversity institutions (museums, zoos, botanical gardens, universities). Furthermore identifies per species outlier coordinates, zero coordinates, identical latitude/longitude and invalid coordinates. Also implements an algorithm to identify data sets with a significant proportion of rounded coordinates. Especially suited for large data sets. See <https://github.com/azizka/CoordinateCleaner/wiki> for more details and tutorials.
+
+* [`demoniche`](http://demoniche.r-forge.r-project.org/): demoniche carries out spatially-explicit demographic modelling. The model simulates stochastic and gradual niche changes, to investigate population dynamics and persistence in space and time. demoniche offers the following features:
+
+* [`dismo`](https://cran.r-project.org/web/packages/dismo): Species Distribution Modeling. Functions for species distribution modeling, that is, predicting entire geographic distributions form occurrences at a number of sites and the environment at these sites.
+
+* [`downscale`](https://cran.r-project.org/web/packages/downscale): Downscaling Species Occupancy. A set of functions that downscales species occupancy at coarse grain sizes to predict species occupancy at fine grain sizes.
+
+* [`ecolottery`](https://cran.r-project.org/web/packages/ecolottery): Coalescent-Based Simulation of Ecological Communities. Coalescent-Based Simulation of Ecological Communities as proposed by Munoz et al. (2017) doi:10.13140/RG.2.2.31737.26728. The package includes a tool for estimating parameters of community assembly by using Approximate Bayesian Computation.
+
+* [`EcoSimR`](https://cran.r-project.org/web/packages/EcoSimR): Null Model Analysis for Ecological Data. Given a site by species interaction matrix, users can make inferences about species interactions by performance hypothesis comparing test statistics against a null distribution. The current package provides algorithms and metrics for niche-overlap, body size ratios and species co-occurrence. Users can also integrate their own algorithms and metrics within these frameworks or completely novel null models. Detailed explanations about the underlying assumptions of null model analysis in ecology can be found at http://ecosimr.org.
+
+* [`ecospat`](https://cran.r-project.org/web/packages/ecospat): Collection of R functions and data sets for the support of spatial ecology analyses with a focus on pre, core and post modelling analyses of species distribution, niche quantification and community assembly. Written by current and former members and collaborators of the ecospat group of Antoine Guisan, Department of Ecology and Evolution (DEE) and Institute of Earth Surface Dynamics (IDYST), University of Lausanne, Switzerland. Read Di Cola et al. (2016) doi:10.1111/ecog.02671 for details.
+
+* [`ENiRG`](https://cran.r-project.org/web/packages/ENiRG): Ecological Niche in R and GRASS. A set of tools for the analysis of ecological niche of species and calculation of habitat suitability maps.
+
+* [`ENMeval`](https://cran.r-project.org/web/packages/ENMeval): Automated Runs and Evaluations of Ecological Niche Models. Automatically partitions data into evaluation bins, executes ecological niche models across a range of settings, and calculates a variety of evaluation statistics. Current version only implements ENMs with Maxent (Phillips et al. 2006)doi:10.1016/j.ecolmodel.2005.03.026.
+
+* [`ENMTools`](https://github.com/danlwarren/ENMTools/): This package implements various tests, visualizations, and metrics for use with environmental niche models (ENMs) and species distribution models (SDMs).
+
+* [`EnvNicheR`](https://cran.r-project.org/web/packages/EnvNicheR): Niche Estimation. A plot overlying the niche of multiple species is obtained: 1) to determine the niche conditions which favor a higher species richness, 2) to create a box plot with the range of environmental variables of the species, 3) to obtain a list of species in an area of the niche selected by the user and, 4) to estimate niche overlap among the species.
+
+* [`FactorsR`](https://cran.r-project.org/web/packages/FactorsR): Identification of the Factors Affecting Species Richness. It identifies the factors significantly related to species richness, and their relative contribution, using multiple regressions and support vector machine models. It uses an output file of 'ModestR' (<http://www.ipez.es/ModestR>) with data of richness of the species and environmental variables in a cell size defined by the user. The residuals of the support vector machine model are shown on a map. Negative residuals may be potential areas with undiscovered and/or unregistered species, or areas with decreased species richness due to the negative effect of anthropogenic factors.
+
+* [`fitdistrplus`](https://cran.r-project.org/web/packages/fitdistrplus): Help to Fit of a Parametric Distribution to Non-Censored or Censored Data. Extends the fitdistr() function (of the MASS package) with several functions to help the fit of a parametric distribution to non-censored or censored data. Censored data may contain left censored, right censored and interval censored values, with several lower and upper bounds. In addition to maximum likelihood estimation (MLE), the package provides moment matching (MME), quantile matching (QME) and maximum goodness-of-fit estimation (MGE) methods (available only for non-censored data). Weighted versions of MLE, MME and QME are available.
+
+* [`fuzzySim`](http://fuzzysim.r-forge.r-project.org/): fuzzySim is an R package for calculating fuzzy similarity in species occurrence patterns. It includes functions for data preparation, such as converting species lists (long format) to presence-absence tables (wide format), obtaining unique abbreviations of species names, or transposing (parts of) complex data frames; and sample data sets for providing practical examples.
+
+* [`hSDM`](https://cran.r-project.org/web/packages/hSDM): hSDM is an R package for estimating parameters of hierarchical Bayesian species distribution models. Such models allow interpreting the observations (occurrence and abundance of a species) as a result of several hierarchical processes including ecological processes (habitat suitability, spatial dependence and anthropogenic disturbance) and observation processes (species detectability). Hierarchical species distribution models are essential for accurately characterizing the environmental response of species, predicting their probability of occurrence, and assessing uncertainty in the model results.
+
+* [`indicspecies`](https://cran.r-project.org/web/packages/indicspecies): Relationship Between Species and Groups of Sites. Functions to assess the strength and statistical significance of the relationship between species occurrence/abundance and groups of sites. Also includes functions to measure species niche breadth using resource categories.
+
+* [`iSDM`](https://cran.r-project.org/web/packages/iSDM): Functions for predicting and mapping potential and realized distributions of invasive species within the invaded range.
+
+* [`jrich`](https://cran.r-project.org/web/packages/jrich): Jack-Knife Support for Evolutionary Distinctiveness Indices I and W. These functions calculate the taxonomic measures presented in Miranda-Esquivel (2016). The package introduces Jack-knife resampling in evolutionary distinctiveness prioritization analysis, as a way to evaluate the support of the ranking in area prioritization, and the persistence of a given area in a conservation analysis. The algorithm is described in: Miranda-Esquivel, D (2016) doi:10.1007/978-3-319-22461-9_11.
+
+* [`kissmig`](https://cran.r-project.org/web/packages/kissmig): a Keep It Simple Species Migration Model. Simulating species migration and range dynamics under stable or changing environmental conditions based on a simple, raster-based, stochastic migration model. Providing accessibility for considering species migration in niche-based species distribution models.
+
+* [`KnowBR`](https://cran.r-project.org/web/packages/KnowBR): Discriminating Well Surveyed Spatial Units from Exhaustive Biodiversity Databases.It uses species accumulation curves and diverse estimators to assess, at the same time, the levels of survey coverage in multiple geographic cells of a size defined by the user or polygons. It also enables the geographical depiction of observed species richness, survey effort and completeness values including a background with administrative areas.
+
+* [`letsR`](https://cran.r-project.org/web/packages/letsR): Tools for Data Handling and Analysis in Macroecology. R functions for handling, processing, and analyzing geographic data on species' distributions and environmental variables.
+
+* [`mapr`](https://cran.r-project.org/web/packages/mapr): Visualize Species Occurrence Data. Utilities for visualizing species occurrence data. Includes functions to visualize occurrence data from 'spocc', 'rgbif', and other packages. Mapping options included for base R plots, 'ggplot2', 'ggmap', 'leaflet' and 'GitHub' 'gists'.
+
+* [`MaxentVariableSelection`](https://cran.r-project.org/web/packages/MaxentVariableSelection): Selecting the Best Set of Relevant Environmental Variables along with the Optimal Regularization Multiplier for Maxent Niche Modeling. Complex niche models show low performance in identifying the most important range-limiting environmental variables and in transferring habitat suitability to novel environmental conditions (Warren and Seifert, 2011 doi:10.1890/10-1171.1; Warren et al., 2014 doi:10.1111/ddi.12160). This package helps to identify the most important set of uncorrelated variables and to fine-tune Maxent's regularization multiplier. In combination, this allows to constrain complexity and increase performance of Maxent niche models (assessed by information criteria, such as AICc (Akaike, 1974 doi:10.1109/TAC.1974.1100705), and by the area under the receiver operating characteristic (AUC) (Fielding and Bell, 1997 doi:10.1017/S0376892997000088). Users of this package should be familiar with Maxent niche modelling.
+
+* [`maxlike`](https://cran.r-project.org/web/packages/maxlike): Model Species Distributions by Estimating the Probability of Occurrence Using Presence-Only Data. Provides a likelihood-based approach to modeling species distributions using presence-only data. In contrast to the popular software program MAXENT, this approach yields estimates of the probability of occurrence, which is a natural descriptor of a species' distribution.
+
+* [`maxnet`](https://cran.r-project.org/web/packages/maxnet): Fitting 'Maxent' Species Distribution Models with 'glmnet'. Procedures to fit species distributions models from occurrence records and environmental variables, using 'glmnet' for model fitting. Model structure is the same as for the 'Maxent' Java package, version 3.4.0, with the same feature types and regularization options. See the 'Maxent' website <http://biodiversityinformatics.amnh.org/open_source/maxent> for more details.
+
+* [`MetaLandSim`](https://cran.r-project.org/web/packages/MetaLandSim): Landscape and Range Expansion Simulation. Tools to generate random landscape graphs, evaluate species occurrence in dynamic landscapes, simulate future landscape occupation and evaluate range expansion when new empty patches are available (e.g. as a result of climate change).
+
+* [`MIAmaxent`](https://cran.r-project.org/web/packages/MIAmaxent): Maxent Distribution Model Selection. Tools for training, selecting, and evaluating maximum entropy (Maxent) distribution models. This package provides tools for user- controlled transformation of explanatory variables, selection of variables by nested model comparison, and flexible model evaluation and projection. It is based on the strict maximum likelihood interpretation of maximum entropy modelling.
+
+* [`mobsim`](https://cran.r-project.org/web/packages/mobsim): Spatial Simulation and Scale-Dependent Analysis of Biodiversity Changes. Tools for the simulation, analysis and sampling of spatial biodiversity data (May et al. 2017) doi:10.1101/209502. In the simulation tools user define the numbers of species and individuals, the species abundance distribution and species aggregation. Functions for analysis include species rarefaction and accumulation curves, species-area relationships and the distance decay of similarity.
+
+* [`modEvA`](https://cran.r-project.org/web/packages/modEvA): Model Evaluation and Analysis. Analyses species distribution models and evaluates their performance. It includes functions for performing variation partitioning, calculating several measures of model discrimination and calibration, optimizing prediction thresholds based on a number of criteria, performing multivariate environmental similarity surface (MESS) analysis, and displaying various analytical plots.
+
+* [`mopa`](https://cran.r-project.org/web/packages/mopa): Species Distribution MOdeling with Pseudo-Absences. Tools for transferable species distribution modeling and pseudo-absence data generation allowing the straightforward design of relatively complex experiments with multiple factors affecting the uncertainty (variability) of SDM outputs (pseudo-absence sample, climate projection, modeling algorithm, etc.), and the quantification of the contribution of different factors to the final variability following the method described in Deque el al. (2010) doi:10.1007/s00382-011-1053-x. Multiple methods for pseudo-absence data generation can be applied, including the novel Three-step method as described in Iturbide et al. (2015) doi:10.1016/j.ecolmodel.2015.05.018. Additionally, a function for niche overlap calculation is provided, considering the metrics described in Warren et al. (2008) <10.1111/j.1558-5646.2008.00482.x> and in Pianka (1973) <10.1146/annurev.es.04.110173.000413>. (https://github.com/SantanderMetGroup/mopa/wiki) 
+
+* [`netassoc`](https://cran.r-project.org/web/packages/netassoc): Inference of Species Associations from Co-Occurrence Data. Infers species associations from community matrices. Uses local and (optional) regional-scale co-occurrence data by comparing observed partial correlation coefficients between species to those estimated from regional species distributions. Extends Gaussian graphical models to a null modeling framework. Provides interface to a variety of inverse covariance matrix estimation methods.
+
+* [`nicheROVER`](https://cran.r-project.org/web/packages/nicheROVER): (Niche) (R)egion and Niche (Over)lap Metrics for Multidimensional Ecological Niches. This package uses a probabilistic method to calculate niche regions and pairwise niche overlap using multidimensional niche indicator data (e.g., stable isotopes, environmental variables, etc.). The niche region is defined as the joint probability density function of the multidimensional niche indicators at a user-defined probability alpha (e.g., 95%). Uncertainty is accounted for in a Bayesian framework, and the method can be extended to three or more indicator dimensions. It provides directional estimates of niche overlap, accounts for species-specific distributions in multivariate niche space, and produces unique and consistent bivariate projections of the multivariate niche region. A forthcoming article by Swanson et al. (Ecology, 2014) provides a detailed description of the methodology. See the package vignette for a worked example using fish stable isotope data.
+
+* [`nodiv`](https://cran.r-project.org/web/packages/nodiv): Compares the Distribution of Sister Clades Through a Phylogeny. An implementation of the nodiv algorithm, see Borregaard, M.K., Rahbek, C., Fjeldsaa, J., Parra, J.L., Whittaker, R.J. & Graham, C.H. 2014. Node-based analysis of species distributions. Methods in Ecology and Evolution 5(11): 1225-1235. doi:10.1111/2041-210X.12283. Package for phylogenetic analysis of species distributions. The main function goes through each node in the phylogeny, compares the distributions of the two descendant nodes, and compares the result to a null model. This highlights nodes where major distributional divergence have occurred. The distributional divergence for these nodes is mapped using the SOS statistic.
+
+* [`paleobioDB`](https://cran.r-project.org/web/packages/paleobioDB): Download and Process Data from the Paleobiology Database. Includes 19 functions to wrap each endpoint of the PaleobioDB API, plus 8 functions to visualize and process the fossil data. The API documentation for the Paleobiology Database can be found in <http://paleobiodb.org/data1.1/>.
+
+* [`pez`](https://cran.r-project.org/web/packages/pez): Phylogenetics for the Environmental Sciences
+Eco-phylogenetic and community phylogenetic analyses. Keeps community ecological and phylogenetic data matched up and comparable using 'comparative.comm' objects. Wrappers for common community phylogenetic indices ('pez.shape', 'pez.evenness', 'pez.dispersion', and 'pez.dissimilarity' metrics). Implementation of Cavender-Bares (2004) correlation of phylogenetic and ecological matrices ('fingerprint.regression'). Phylogenetic Generalised Linear Mixed Models (PGLMMs; 'pglmm') following Ives & Helmus (2011) and Rafferty & Ives (2013). Simulation of null assemblages, traits, and phylogenies ('scape', 'sim.meta.comm').
+
+* [`phyloclim`](https://cran.r-project.org/web/packages/phyloclim): Integrating Phylogenetics and Climatic Niche Modeling. Implements some methods in phyloclimatic modeling: estimation of ancestral climatic niches, age-range-correlation, niche equivalency test and background-similarity test.
+
+* [`PresenceAbsence`](https://cran.r-project.org/web/packages/PresenceAbsence): Presence-Absence Model Evaluation. This package provides a set of functions useful when evaluating the results of presence-absence models. Package includes functions for calculating threshold dependent measures such as confusion matrices, pcc, sensitivity, specificity, and Kappa, and produces plots of each measure as the threshold is varied. It will calculate optimal threshold choice according to a choice of optimization criteria. It also includes functions to plot the threshold independent ROC curves along with the associated AUC (area under the curve).
+
+* [`RADanalysis`](https://cran.r-project.org/web/packages/RADanalysis): Normalization and Study of Rank Abundance Distributions. It has tools for normalization of rank abundance distributions (RAD) to a desired number of ranks using MaxRank Normalization method. RADs are commonly used in biology/ecology and mathematically equivalent to complementary cumulative distributions (CCDFs) which are used in physics, linguistics and sociology and more generally in data science.
+
+* [`rangeBuilder`](https://cran.r-project.org/web/packages/rangeBuilder): Occurrence Filtering, Geographic and Taxonomic Standardization and Generation of Species Range Polygons. Provides tools for filtering occurrence records, generating alpha-hull-derived range polygons and mapping species distributions.
+
+* [`rangeMapper`](https://cran.r-project.org/web/packages/rangeMapper): A Platform for the Study of Macro-Ecology of Life History Traits. Tools for easy generation of (life-history) traits maps based on species range (extent-of-occurrence) maps.
+
+* [`raptr`](https://cran.r-project.org/web/packages/raptr): Representative and Adequate Prioritization Toolkit in R. Biodiversity is in crisis. The overarching aim of conservation is to preserve biodiversity patterns and processes. To this end, protected areas are established to buffer species and preserve biodiversity processes. But resources are limited and so protected areas must be cost-effective. This package contains tools to generate plans for protected areas (prioritizations), using spatially explicit targets for biodiversity patterns and processes. To obtain solutions in a feasible amount of time, this package uses the commercial 'Gurobi' software package (obtained from <http://www.gurobi.com/>). For more information on using this package, see Hanson et al. (2017) doi:10.1111/2041-210X.12862. 
+
+* [`rbison`](https://cran.r-project.org/web/packages/rbison): Interface to the 'USGS' 'BISON' 'API'. Interface to the 'USGS' 'BISON' (<https://bison.usgs.gov/>) 'API', a 'database' for species occurrence data. Data comes from species in the United States from participating data providers. You can get data via 'taxonomic' and location based queries. A simple function is provided to help visualize data.
+
+* [`rCAT`](https://cran.r-project.org/web/packages/rCAT): Conservation Assessment Tools. A set of tools to help with species conservation assessments (Red List threat assessments). Includes tool for Extent of occurrence, Area of Occupancy, Minimum Enclosing Rectangle, a geographic Projection Wizard and Species batch processing.
+
+* [`rebird`](https://cran.r-project.org/web/packages/rebird): R Client for the eBird Database of Bird Observations. A programmatic client for the eBird database, including functions for searching for bird observations by geographic location (latitude, longitude), eBird hotspots, location identifiers, by notable sightings, by region, and by taxonomic name.
+
+* [`red`](https://cran.r-project.org/web/packages/red): IUCN Redlisting Tools. Includes algorithms to facilitate the assessment of extinction risk of species according to the IUCN (International Union for Conservation of Nature, see <http://www.iucn.org> for more information) red list criteria.
+
+* [`redlistr`](https://cran.r-project.org/web/packages/redlistr): Tools for the IUCN Red List of Ecosystems and Species.A toolbox created by members of the International Union for Conservation of Nature (IUCN) Red List of Ecosystems Committee for Scientific Standards. Primarily, it is a set of tools suitable for calculating the metrics required for making assessments of species and ecosystems against the IUCN Red List of Threatened Species and the IUCN Red List of Ecosystems categories and criteria. See the IUCN website for detailed guidelines, the criteria, publications and other information.
+
+* [`rfishbase`](https://cran.r-project.org/web/packages/rfishbase): R Interface to 'FishBase'. A programmatic interface to <http://www.fishbase.org>, re-written based on an accompanying 'RESTful' API. Access tables describing over 30,000 species of fish, their biology, ecology, morphology, and more. This package also supports experimental access to <http://www.sealifebase.org> data, which contains nearly 200,000 species records for all types of aquatic life not covered by 'FishBase.'
+
+* [`rgbif`](https://cran.r-project.org/web/packages/rgbif): Interface to the Global Biodiversity Information Facility API. A programmatic interface to the Web Service methods provided by the Global Biodiversity Information Facility.
+
+* [`rinat`](https://cran.r-project.org/web/packages/rinat): Access iNaturalist Data Through APIs. A programmatic interface to the API provided by the iNaturalist website <http://inaturalist.org> to download species occurrence data submitted by citizen scientists.
+
+* [`RInSp`](https://cran.r-project.org/web/packages/RInSp): R Individual Specialization (RInSp).Functions to calculate several ecological indices of individual and population niche width (Araujo's E, clustering and pairwise similarity among individuals, IS, Petraitis' W, and Roughgarden's WIC/TNW) to assess individual specialization based on data of resource use. Resource use can be quantified by counts of categories, measures of mass/lenght or proportions. Monte Carlo resampling procedures are available for hypothesis testing against multinomial null models.
+
+* [`rioja`](https://cran.r-project.org/web/packages/rioja): Analysis of Quaternary Science Data. Functions for the analysis of Quaternary science data, including constrained clustering, WA, WAPLS, IKFA, MLRC and MAT transfer functions, and stratigraphic diagrams.
+
+* [`rredlist`](https://cran.r-project.org/web/packages/rredlist): 'IUCN' Red List Client. 'IUCN' Red List (<http://apiv3.iucnredlist.org/api/v3/docs>) client. The 'IUCN' Red List is a global list of threatened and endangered species. Functions cover all of the Red List 'API' routes. An 'API' key is required.
+
+* [`rvertnet`](https://cran.r-project.org/web/packages/rvertnet): Search 'Vertnet', a 'Database' of Vertebrate Specimen Records. Retrieve, map and summarize data from the 'VertNet.org' archives (<http://vertnet.org/>). Functions allow searching by many parameters, including 'taxonomic' names, places, and dates. In addition, there is an interface for conducting spatially delimited searches, and another for requesting large 'datasets' via email.
+
+* [`sads`](https://cran.r-project.org/web/packages/sads): Maximum Likelihood Models for Species Abundance Distributions. Maximum likelihood tools to fit and compare models of species abundance distributions and of species rank-abundance distributions.
+
+* [`sdm`](https://cran.r-project.org/web/packages/sdm):Species Distribution Modelling. An extensible framework for developing species distribution models using individual and community-based approaches, generate ensembles of models, evaluate the models, and predict species potential distributions in space and time. For more information, please check the following paper: Naimi, B., Araujo, M.B. (2016) doi:10.1111/ecog.01881.
+
+* [`SDMPlay`](https://cran.r-project.org/web/packages/SDMPlay): Species Distribution Modelling Playground. Functions provided by this pedagogic package allow to compute models with two popular machine learning approaches, BRT (Boosted Regression Trees) and MaxEnt (Maximum Entropy) applied on sets of marine biological and environmental data. They include the possibility of managing the main parameters for the construction of the models. Classic tools to evaluate model performance are provided (Area Under the Curve, omission rate and confusion matrix, map standard deviation) and are completed with tools to perform null models. The biological dataset includes original occurrences of two species of the class Echinoidea (sea urchins) present on the Kerguelen Plateau and that show contrasted ecological niches. The environmental dataset includes the corresponding statistics for 15 abiotic and biotic descriptors summarized for the Kerguelen Plateau and for different periods in a raster format. The package can be used for practicals to teach and learn the basics of species distribution modelling. Maps of potential distribution can be produced based on the example data included in the package, which brings prior observations of the influence of spatial and temporal heterogeneities on modelling performances. The user can also provide his own datasets to use the modelling functions.
+
+* [`sdmpredictors`](https://cran.r-project.org/web/packages/sdmpredictors): Species Distribution Modelling Predictor Datasets. Terrestrial and marine predictors for species distribution modelling from multiple sources, including WorldClim <http://www.worldclim.org/>,, ENVIREM <http://envirem.github.io/>, Bio-ORACLE <http://bio-oracle.org/> and MARSPEC <http://www.marspec.org/>.
+
+* [`SDMTools`](https://cran.r-project.org/web/packages/SDMTools): Species Distribution Modelling Tools: Tools for processing data associated with species distribution modelling exercises. This packages provides a set of tools for post processing the outcomes of species distribution modeling exercises. It includes novel methods for comparing models and tracking changes in distributions through time. It further includes methods for visualizing outcomes, selecting thresholds, calculating measures of accuracy and landscape fragmentation statistics, etc.. This package was made possible in part by financial support from the Australian Research Council & ARC Research Network for Earth System Science.
+
+* [`sdmvspecies`](https://cran.r-project.org/web/packages/sdmvspecies): Create Virtual Species for Species Distribution Modelling. A software package help user to create virtual species for species distribution modelling. It includes several methods to help user to create virtual species distribution map. Those maps can be used for Species Distribution Modelling (SDM) study. SDM use environmental data for sites of occurrence of a species to predict all the sites where the environmental conditions are suitable for the species to persist, and may be expected to occur.
+
+* [`SiMRiv`](https://cran.r-project.org/web/packages/SiMRiv): Simulating Multistate Movements in River/Heterogeneous Landscapes. Provides functions to generate and analyze spatially-explicit individual-based multistate movements in rivers, heterogeneous and homogeneous spaces. This is done by incorporating landscape bias on local behaviour, based on resistance rasters. Although originally conceived and designed to simulate trajectories of species constrained to linear habitats/dendritic ecological networks (e.g. river networks), the simulation algorithm is built to be highly flexible and can be applied to any (aquatic, semi-aquatic or terrestrial) organism, independently on the landscape in which it moves. Thus, the user will be able to use the package to simulate movements either in homogeneous landscapes, heterogeneous landscapes (e.g. semi-aquatic animal moving mainly along rivers but also using the matrix), or even in highly contrasted landscapes (e.g. fish in a river network). The algorithm and its input parameters are the same for all cases, so that results are comparable. Simulated trajectories can then be used as mechanistic null models (Potts & Lewis 2014, doi:10.1098/rspb.2014.0231) to test a variety of 'Movement Ecology' hypotheses (Nathan et al. 2008, doi:10.1073/pnas.0800375105), including landscape effects (e.g. resources, infrastructures) on animal movement and species site fidelity, or for predictive purposes (e.g. road mortality risk, dispersal/connectivity). The package should be relevant to explore a broad spectrum of ecological phenomena, such as those at the interface of animal behaviour, management, landscape and movement ecology, disease and invasive species spread, and population dynamics.
+
+* [`spacodiR`](https://cran.r-project.org/web/packages/spacodiR): Spatial and Phylogenetic Analysis of Community Diversity. SPACoDi is primarily designed to characterise the structure and phylogenetic diversity of communities using abundance or presence-absence data of species among community plots.
+
+* [`SPECIES`](https://cran.r-project.org/web/packages/SPECIES): Statistical package for species richness estimation
+SPECIES is an R package for estimation of species richness or diversity.
+
+* [`SPEDInstabR`](https://cran.r-project.org/web/packages/SPEDInstabR): Estimation of the Relative Importance of Factors Affecting Species Distribution Based on Stability Concept. From output files obtained from the software 'ModestR', the relative contribution of factors to explain species distribution is depicted using several plots. A global geographic raster file for each environmental variable may be also obtained with the mean relative contribution, considering all species present in each raster cell, of the factor to explain species distribution. Finally, for each variable it is also possible to compare the frequencies of any variable obtained in the cells where the species is present with the frequencies of the same variable in the cells of the extent.
+
+* [`sperich`](https://cran.r-project.org/web/packages/sperich):  Auxiliary Functions to Estimate Centers of Biodiversity. Provides some easy-to-use functions to interpolate species range based on species occurrences and to estimate centers of biodiversity.
+
+* [`spocc`](https://cran.r-project.org/web/packages/spocc): Interface to Species Occurrence Data Sources. A programmatic interface to many species occurrence data sources, including Global Biodiversity Information Facility ('GBIF'), 'USGSs' Biodiversity Information Serving Our Nation ('BISON'), 'iNaturalist', Berkeley 'Ecoinformatics' Engine, 'eBird', 'AntWeb', Integrated Digitized 'Biocollections' ('iDigBio'), 'VertNet', Ocean 'Biogeographic' Information System ('OBIS'), and Atlas of Living Australia ('ALA'). Includes functionality for retrieving species occurrence data, and combining those data. 
+
+* [`spThin`](https://cran.r-project.org/web/packages/spThin): Functions for Spatial Thinning of Species. Occurrence Records for Use in Ecological Models
+spThin is a set of functions that can be used to spatially thin species occurrence data. The resulting thinned data can be used in ecological modeling, such as ecological niche modeling.
+
+* [`SSDM`](https://cran.r-project.org/web/packages/SSDM): Stacked Species Distribution Modelling. Allows to map species richness and endemism based on stacked species distribution models (SSDM). Individuals SDMs can be created using a single or multiple algorithms (ensemble SDMs). For each species, an SDM can yield a habitat suitability map, a binary map, a between-algorithm variance map, and can assess variable importance, algorithm accuracy, and between- algorithm correlation. Methods to stack individual SDMs include summing individual probabilities and thresholding then summing. Thresholding can be based on a specific evaluation metric or by drawing repeatedly from a Bernoulli distribution. The SSDM package also provides a user-friendly interface.
+
+* [`subniche`](https://cran.r-project.org/web/packages/subniche): Within Outlying Mean Indexes: Refining the OMI Analysis. Complementary indexes calculation to the Outlying Mean Index analysis to explore niche shift of a community and biological constraint within an Euclidean space, with graphical displays.
+
+* [`Traitspace`](https://cran.r-project.org/web/packages/Traitspace): A Predictive Model for Trait Based Community Assembly of Plant Species. Implements a predictive model of community assembly called 'Traitspace' (Laughlin et al. 2012, Ecology Letters). Traitspace is a hierarchical Bayesian model that translates the theory of trait-based environmental filtering into a statistical model that incorporates intraspecific trait variation to predict the relative abundances and the distributions of species. The package includes functions to plot the predicted and the observed values. It also includes functions to compare the predicted values against the observed values using a variety of different distance measures and to implement permutation tests to test their statistical significance.
+
+* [`untb`](https://cran.r-project.org/web/packages/untb): Ecological Drift under the UNTB. A collection of utilities for biodiversity data. Includes the simulation of ecological drift under Hubbell's Unified Neutral Theory of Biodiversity, and the calculation of various diagnostics such as Preston curves. Now includes functionality provided by Francois Munoz and Andrea Manica.
+
+* [`usdm`](https://cran.r-project.org/web/packages/usdm): Uncertainty Analysis for Species Distribution Models. This is a framework that aims to provide methods and tools for assessing the impact of different sources of uncertainties (e.g.positional uncertainty) on performance of species distribution models (SDMs).)
+
+* [`vegdata`](https://cran.r-project.org/web/packages/vegdata): Access Vegetation Databases and Treat Taxonomy. Handling of vegetation data from different sources ( Turboveg <http://www.synbiosys.alterra.nl/turboveg/>; the German national repository <http://www.vegetweb.de> and others. Taxonomic harmonization (given appropriate taxonomic lists, e.g. the German taxonomic standard list "GermanSL", <http://germansl.infinitenature.org>).
+
+* [`velociraptr`](https://cran.r-project.org/web/packages/velociraptr): Fossil Analysis.Functions for downloading, reshaping, culling, cleaning, and analyzing fossil data from the Paleobiology Database <https://paleobiodb.org>.
+
+* [`wallace`](https://cran.r-project.org/web/packages/wallace): A Modular Platform for Reproducible Modeling of Species Niches and Distributions.The 'shiny' application 'wallace' is a modular platform for reproducible modeling of species niches and distributions. 'wallace' guides users through a complete analysis, from the acquisition of species occurrence and environmental data to visualizing model predictions on an interactive map, thus bundling complex workflows into a single, streamlined interface.
+
+* [`zetadiv`](https://cran.r-project.org/web/packages/zetadiv): Functions to Compute Compositional Turnover Using Zeta Diversity.Functions to compute compositional turnover using zeta-diversity, the number of species shared by multiple assemblages. The package includes functions to compute zeta-diversity for a specific number of assemblages and to compute zeta-diversity for a range of numbers of assemblages. It also includes functions to explain how zeta-diversity varies with distance and with differences in environmental variables between assemblages, using generalised linear models, linear models with negative constraints, generalised additive models,shape constrained additive models, and I-splines.
+
+* [`zoon`](https://cran.r-project.org/web/packages/zoon): Reproducible, Accessible & Shareable Species Distribution Modelling. Reproducible and remixable species distribution modelling. The package reads user submitted modules from an online repository, runs full SDM workflows and returns output that is fully reproducible.
